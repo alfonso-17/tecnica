@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios de Hosting y Desarrollo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Servicios de Hosting y Desarrollo</h1>
+    </header>
+    <main>
+        <section id="hosting-web">
+            <h2>Hosting Web</h2>
+            <button onclick="toggleContent('hosting-web-content')">VER MAS...</button>
+            <div id="hosting-web-content" class="content">
+                <h3>Concepto:</h3>
+                <p>El hosting web es un servicio que permite a individuos y organizaciones almacenar sus sitios web en servidores conectados a internet.</p>
+                <h3>Para qué sirve:</h3>
+                <p>Permite que un sitio web esté disponible en internet.</p>
+                <h3>Tipos:</h3>
+                <ul>
+                    <li>Compartido</li>
+                    <li>VPS (Virtual Private Server)</li>
+                    <li>Dedicado</li>
+                    <li>Cloud Hosting</li>
+                </ul>
+                <h3>Costos:</h3>
+                <ul>
+                    <li>Compartido: $2 a $10 USD por mes</li>
+                    <li>VPS: $20 a $100 USD por mes</li>
+                    <li>Dedicado: $80 a $300 USD por mes</li>
+                    <li>Cloud Hosting: $10 a $1000+ USD por mes</li>
+                </ul>
+                <h3>Proveedores:</h3>
+                <ul>
+                    <li>Compartido: Bluehost, HostGator, SiteGround</li>
+                    <li>VPS: DigitalOcean, Linode, Vultr</li>
+                    <li>Dedicado: InMotion Hosting, Liquid Web</li>
+                    <li>Cloud Hosting: AWS, Google Cloud Platform, Microsoft Azure</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="vps">
+            <h2>VPS (Virtual Private Server)</h2>
+            <button onclick="toggleContent('vps-content')  ">VER MAS...</button>
+            <div id="vps-content" class="content">
+                <h3>Concepto:</h3>
+                <p>Un VPS es un tipo de hosting que utiliza virtualización para dividir un servidor físico en servidores virtuales independientes.</p>
+                <h3>Para qué sirve:</h3>
+                <p>Proporciona un equilibrio entre el hosting compartido y dedicado, ofreciendo mayor control y recursos dedicados.</p>
+                <h3>Tipos:</h3>
+                <ul>
+                    <li>VPS Administrado</li>
+                    <li>VPS No Administrado</li>
+                </ul>
+                <h3>Costos:</h3>
+                <ul>
+                    <li>Entre $20 a $100 USD por mes</li>
+                </ul>
+                <h3>Proveedores:</h3>
+                <ul>
+                    <li>DigitalOcean</li>
+                    <li>Linode</li>
+                    <li>Vultr</li>
+                    <li>OVHcloud</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="servidor-dedicado">
+            <h2>Servidor Dedicado</h2>
+            <button onclick="toggleContent('servidor-dedicado-content')">VER MAS...</button>
+            <div id="servidor-dedicado-content" class="content">
+                <h3>Concepto:</h3>
+                <p>Un servidor dedicado es un servidor físico completo reservado para un solo cliente.</p>
+                <h3>Para qué sirve:</h3>
+                <p>Ideal para sitios web de alto tráfico o aplicaciones que requieren muchos recursos.</p>
+                <h3>Tipos:</h3>
+                <ul>
+                    <li>Servidor Dedicado Administrado</li>
+                    <li>Servidor Dedicado No Administrado</li>
+                </ul>
+                <h3>Costos:</h3>
+                <ul>
+                    <li>Entre $80 a $300 USD por mes</li>
+                </ul>
+                <h3>Proveedores:</h3>
+                <ul>
+                    <li>InMotion Hosting</li>
+                    <li>Liquid Web</li>
+                    <li>HostGator</li>
+                    <li>OVHcloud</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="cuenta-desarrollador">
+            <h2>Cuenta Desarrollador para Google y Apple</h2>
+            <button onclick="toggleContent('cuenta-desarrollador-content')">VER MAS...</button>
+            <div id="cuenta-desarrollador-content" class="content">
+                <h3>Concepto:</h3>
+                <p>Las cuentas de desarrollador permiten publicar aplicaciones en Google Play Store y App Store.</p>
+                <h3>Para qué sirve:</h3>
+                <p>Permite cargar, gestionar y distribuir aplicaciones a través de las tiendas de aplicaciones.</p>
+                <h3>Tipos:</h3>
+                <ul>
+                    <li>Cuenta de Desarrollador de Google</li>
+                    <li>Cuenta de Desarrollador de Apple</li>
+                </ul>
+                <h3>Costos:</h3>
+                <ul>
+                    <li>Google Play Developer Account: $25 USD de pago único</li>
+                    <li>Apple Developer Program: $99 USD por año</li>
+                </ul>
+                <h3>Proveedores:</h3>
+                <ul>
+                    <li>Google Play</li>
+                    <li>Apple</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
